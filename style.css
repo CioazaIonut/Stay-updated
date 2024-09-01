@@ -80,6 +80,10 @@
     margin-right: 30px;
   }
 
+  .img-pc{
+    display: none;
+  }
+
   @media (min-width: 376px) {
     .mobile-container {
       display: none;
