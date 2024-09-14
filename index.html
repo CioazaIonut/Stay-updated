@@ -5,85 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stay updated</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section class="mobile-container">
-        <img src="./images/illustration-sign-up-mobile.svg" alt="ilustration-mobile">
+    <section class="section-container card-unu">
+        <img src="./images/illustration-sign-up-mobile.svg" alt="ilustration-mobile" class="mobile-image">
 
-        <div>
+        <div class="section-content">
 
-            <h1 class="margin-top title-style mobile-container">Stay updated!</h1>
+            <h1 class="title-style">Stay updated!</h1>
 
-            <p class="paragraph-style margin-top">Join 60,000+ product managers receiving monthly update on:</p>
+            <p class="paragraph-style">Join 60,000+ product managers receiving monthly update on:</p>
 
-            <div class="margin-top small-mobile-image">
+            <div class=" small-mobile-image">
                 <img src="./images/icon-list.svg" alt=""> 
                 <p class="paragraph-style"> Product discovery and building what matters</p>
             </div>
 
-            <div class="margin-top small-mobile-image">
+            <div class="small-mobile-image">
                 <img src="./images/icon-list.svg" alt=""> 
                 <p class="paragraph-style">Measuring to ensure update are a success</p>
             </div>
-            
-            <div class="margin-top small-mobile-image">
+
+            <div class=" small-mobile-image">
                 <img src="./images/icon-list.svg" alt=""> <p class="paragraph-style">And much more!</p>
             </div>
 
             <div class="email-container">
                 <label>Email address</label>
-                <input class="input-container margin-top" type="text" name="nume">
+                <input class="input-container" type="text" name="nume">
 
             </div>
 
-            <button class="button-subscribe margin-top"> Subscribe to manthly newsletter</button>
+            <button class="button-subscribe"> Subscribe to manthly newsletter</button>
 
         </div>
     </section>
 
-    <section class="pc-container ">
-        <div class="in-line">
-            <div>
-                <h1 class="margin-top">Stay updated!</h1>
-
-                <p class="paragraph-style margin-top">Join 60,000+ product managers receiving monthly update on:</p>
-
-                <div class="margin-top small-mobile-image">
-                    <img src="./images/icon-list.svg" alt=""> 
-                    <p class="paragraph-style"> Product discovery and building what matters</p>
-                </div>
-    
-                <div class="margin-top small-mobile-image">
-                    <img src="./images/icon-list.svg" alt=""> 
-                    <p class="paragraph-style">Measuring to ensure update are a success</p>
-                </div>
-                
-                <div class="margin-top small-mobile-image">
-                    <img src="./images/icon-list.svg" alt=""> <p class="paragraph-style">And much more!</p>
-                </div>
-    
-                <div class="email-container">
-
-                    <div class="email-container">
-                    <label>Email address</label>
-                    <p class="eroare-checkbox-email eroare-checkbox margin-top-eror"> Valid email required</p>
-                    </div>
-
-                    <input class="input-container margin-top" type="text" name="nume">
-
-                <button class="button-subscribe margin-top"> Subscribe to manthly newsletter</button>
-
-            </div>
-
-            <div>
-                <img src="./images/illustration-sign-up-desktop.svg" alt="sign up desktop">
-            </div>
+    <section class="section-container-doi card-doi">
+        <img class="img-secound-paige" src="./images/icon-success.svg" alt="icon-success">
+        <h1 class="secound-title">Thanks for subscribing!</h1>
+        <p class="paragraph-secound-paige">A confirmation email has been sent to as@loremcompany.com. 
+            Please open it and clik the button inside to confirm you subscription.</p>
+        <div class="setting-secound-button">
+            <button class="secound-button"> Dismiss message</button>
         </div>
+
     </section>
+
     <script src="./script.js"></script>
 </body>
 </html>
