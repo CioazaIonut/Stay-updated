@@ -1,4 +1,4 @@
-.{
+* {
   margin: 0px;
   border: none;
   font-family: "Roboto";}
@@ -16,9 +16,16 @@ body{
 
 .paragraph-style{
     font-size: 16px;
+    margin-top: 16px;
+}
+
+.title-style {
+  font-size: 36px;
 }
 
 .input-container {
+
+    margin-top: 16px;
     border: 1px solid;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -32,6 +39,8 @@ body{
   }
 
   .button-subscribe{
+    margin-top: 20%;
+
     font-size: 16px;
     font-weight: 500;
     background-color: var(--dark-slate-grey);
@@ -62,18 +71,6 @@ body{
   }
 
   .section-container{
-    margin-top: 20%;
-    max-width: 375px;
-    padding: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--white);
-    border-radius: 24px;
-  }
-
-  .section-container-doi{
-    display: none;
-    margin-top: 20%;
     max-width: 375px;
     padding: 16px;
     margin-left: auto;
@@ -93,9 +90,7 @@ body{
     padding-right: 20px;
   }
 
-  .img-pc{
-    display: none;
-  }
+
 
   /* pagina doi*/
 
@@ -117,6 +112,16 @@ body{
 
   .setting-secound-button{
     padding: 20px;
+  }
+
+  .section-container-doi{
+    display: none;
+    max-width: 375px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white);
+    border-radius: 24px;
   }
 
   .secound-button{
@@ -155,10 +160,21 @@ body{
 
   }
 
+  .img-pc{
+    display: none;
+  }
+
 @media screen and (min-width: 900px) {
   .section-container {
     display: flex;
     flex-direction: row-reverse;
     max-width: 880px;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 }
