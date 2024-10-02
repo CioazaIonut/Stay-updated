@@ -39,7 +39,7 @@ body{
   }
 
   .button-subscribe{
-    margin-top: 20%;
+    margin-top: 24px;
 
     font-size: 16px;
     font-weight: 500;
@@ -160,7 +160,7 @@ body{
 
   }
 
-  .img-pc{
+  .mobile-pc{
     display: none;
   }
 
@@ -177,4 +177,32 @@ body{
     align-items: center;
     height: 100vh;
   }
+
+  .mobile-image{
+    display: none;
+  }
+
+  .mobile-pc{
+    display: block;
+  }
+
+  .title-style{
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .paragraph-style-pc{
+    margin-top: 40px;
+  }
+
+  .small-mobile-image{
+    margin-top: 10px;
+  }
+
+  .email-container{
+    margin-top: 50px;
+  }
+
+
+
 }

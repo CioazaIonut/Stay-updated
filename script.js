@@ -28,6 +28,10 @@ const resetButtonPasDoi = () => {
     cardUnu.style.display = "flex";
     cardDoi.style.display = "none";
 
+
+
+    emailAfisat.style.display = "none";  /*reusesc sa il sterg de tot input-ul, nu doar email-ul scris*/
+
   };
 
   buttonReset.addEventListener("click", resetButtonPasDoi);
@@ -37,8 +41,9 @@ const resetButtonPasDoi = () => {
 
 1) distanta intre input email si butonul de jos                 OK
 2) butonul trebuie sa ocupe 100% din latimea disponibila
-3) spatieri intre text                                          OK
+3) spatieri intre text                          768 px                OK
 4) (desktop) titlul "Stay updated" trebuie sa fie mai mare      OK
-5) (desktop) imaginea din dreapta trebuie sa fie mai mica si sa aiba colturile rotunjite (Nu gasesc imaginea de PC 
-                                                                  sa ii dau width si border-radius)
-6) cand ma intorc pe pasul 1 sa fie sters continutul imputului (dreptunghiului)*/
+5) (desktop) imaginea din dreapta trebuie sa fie mai mica si sa aiba colturile rotunjite             ok
+6) cand ma intorc pe pasul 1 sa fie sters continutul imputului (dreptunghiului) 
+                              reusesc sa il sterg de tot input-ul, nu doar email-ul scris
+*/
