@@ -80,7 +80,7 @@ body{
   }
 
   .section-container > img {
-    width: 100%;
+    
   }
 
   .section-content {
@@ -162,6 +162,7 @@ body{
 
   .mobile-pc{
     display: none;
+    width: 400px;
   }
 
 @media screen and (min-width: 900px) {
